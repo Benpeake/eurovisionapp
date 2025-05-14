@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@theme {
+  --font-oswald: Oswald, sans-serif;
+
+  --color-pink: #f656b3;
+  --color-pink-fade: #ff99d4;
+
+  --color-yellow: #ffdd33;
+  --color-yellow-fade: #fcec9c;
+
+  --color-off-white: #f2f2f2;
+
+  --color-black: #333;
+  --color-black-fade: #33333360;
+
+  --text-heading: 24px;
+  --text-title: 20px;
+  --text-subheading: 14px
+  --text-value: 16px
+}
+
+.tag{
+  @apply bg-yellow-fade text-pink-fade px-2 py-1.5 rounded font-semibold ml-0 list-none hover:text-pink hover:bg-yellow;
+}
+.tag.active{
+@apply bg-yellow text-pink;
+}
