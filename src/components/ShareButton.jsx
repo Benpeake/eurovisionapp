@@ -5,7 +5,7 @@ function ShareButton() {
         const data = localStorage.getItem("scores");
         if (data) {
           const encoded = encodeURIComponent(data);
-          const shareUrl = `https://yourdomain.com?data=${encoded}`;
+          const shareUrl = `https://eurovisionapp25.vercel.app/?data=${encoded}`;
           // WhatsApp
           window.open(`https://wa.me/?text=Check out my Eurovision table! ${shareUrl}`, "_blank");
         }
