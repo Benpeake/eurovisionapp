@@ -14,5 +14,5 @@ export const bingo = [
   { action: "Awkward rapping", clicked: false },
   { action: "Statement hat", clicked: false },
   { action: "360 camera pan", clicked: false },
-  { action: "Keytar siting", clicked: false },
+  { action: "Keytar sighting", clicked: false },
 ];
