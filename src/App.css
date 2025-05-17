@@ -11,7 +11,7 @@
   --color-off-white: #f2f2f2;
 
   --color-black: #333;
-  --color-black-fade: #33333360;
+  --color-black-fade: #33333320;
 
   --text-heading: 24px;
   --text-title: 20px;
@@ -20,7 +20,7 @@
 }
 
 .tag{
-  @apply bg-yellow-fade text-pink-fade px-2 py-1.5 rounded font-semibold ml-0 list-none hover:text-pink hover:bg-yellow;
+  @apply bg-white text-pink-fade px-2 py-1.5 rounded font-semibold ml-0 list-none hover:text-pink hover:bg-yellow;
 }
 .tag.active{
 @apply bg-yellow text-pink;

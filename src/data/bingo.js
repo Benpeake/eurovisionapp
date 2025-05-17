@@ -1,0 +1,18 @@
+export const bingo = [
+  { action: "Fire!", clicked: false },
+  { action: "Knee drop", clicked: false },
+  { action: "Power grab", clicked: false },
+  { action: "Fake rain", clicked: false },
+  { action: "Wind machine", clicked: false },
+  { action: "Wink into the lens", clicked: false },
+  { action: "Sunglasses indoors", clicked: false },
+  { action: "Heart hands", clicked: false },
+  { action: "Smokey", clicked: false },
+  { action: "Peace sign", clicked: false },
+  { action: "Traditional attire", clicked: false },
+  { action: "Mid-performance costume change", clicked: false },
+  { action: "Awkward rapping", clicked: false },
+  { action: "Statement hat", clicked: false },
+  { action: "360 camera pan", clicked: false },
+  { action: "Keytar siting", clicked: false },
+];
