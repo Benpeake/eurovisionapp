@@ -4,7 +4,7 @@ import "./App.css";
 import Score from "./pages/Score";
 import Bingo from "./pages/Bingo";
 import Table from "./pages/Table";
-import Nav from "./components/nav";
+import Nav from "./components/Nav";
 import { useEffect, useState } from "react";
 import { countries } from "./data/countires";
 import { bingo } from "./data/bingo";
@@ -25,13 +25,6 @@ function App() {
   });
 
   const [bingoState, setBingoState] = useState(() => {
-    if (sharedData) {
-      try {
-        return JSON.parse(decodeURIComponent(sharedData));
-      } catch {
-        console.warn("Invalid shared data");
-      }
-    }
     const saved = localStorage.getItem("bingoItems");
     return saved ? JSON.parse(saved) : null;
   });
