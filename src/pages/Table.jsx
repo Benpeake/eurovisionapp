@@ -1,5 +1,5 @@
 import CountryName from "../components/CountryName";
-import ShareButton from "../components/ShareButton";
+import ResetButton from "../components/ResetButton";
 
 function Table({ scores }) {
   const countryArray = Object.entries(scores).map(([key, value]) => ({
@@ -30,7 +30,7 @@ function Table({ scores }) {
           </div>
         ))}
       <div className="pt-6 pb-4 mx-auto w-full">
-        <ShareButton />
+        <ResetButton />
       </div>
     </div>
   );
